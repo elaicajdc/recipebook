@@ -32,7 +32,7 @@ public class RecipeResource {
 
     @PostMapping
     public ResponseEntity<Recipe> createRecipe(@RequestBody Recipe recipe) {
-        return ResponseEntity.created(URI.create("/recipe/userID")).body(recipeService.createRecipe(recipe));
+        return ResponseEntity.created(URI.create("/recipe/{userID}")).body(recipeService.createRecipe(recipe));
     }
 
     @GetMapping

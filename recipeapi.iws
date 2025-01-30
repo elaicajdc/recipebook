@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9481e55c-33b6-4618-b3c6-b5d585a05486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/domain/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/repo/RecipeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/service/RecipeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/RecipeapiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/getarrays/recipeapi/RecipeapiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/getarrays/recipeapi/RecipeapiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipeapi.iws" beforeDir="false" afterPath="$PROJECT_DIR$/recipeapi.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
