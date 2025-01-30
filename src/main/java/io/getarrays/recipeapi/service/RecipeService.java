@@ -56,14 +56,20 @@ public class RecipeService {
 
     //will give us the extension of the file. else, it will be .png
     private final Function<String, String> fileExtension = filename ->
-            Optional.of(filename).filter(name -> name.contains("."))
-            .map(name -> "." + name.substring(filename.lastIndexOf("."+1)))
-            .orElse(".png");
+            Optional.of(filename)
+                    .filter(name -> name.contains("."))
+                    .map(name -> "." + name.substring(name.lastIndexOf(".") + 1))
+                    .orElse(".png");
+
 
     private final BiFunction<String, MultipartFile, String> photoFunction = (id, image) -> {
         String filename = id + fileExtension.apply(image.getOriginalFilename());
         try {
             Path fileStorageLocation = Paths.get(PHOTO_DIRECTORY).toAbsolutePath().normalize();
+            if (filename.isEmpty()) {
+                throw new RuntimeException("No file selected for upload");
+            }
+//            Recipe recipe = recipeRepo.findById(id).orElseThrow(() -> new RuntimeException("Recipe not found"));
             if (!Files.exists(fileStorageLocation)) {
                 Files.createDirectories(fileStorageLocation); // create the directory if it doesn't exist
             }

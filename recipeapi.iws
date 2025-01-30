@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9481e55c-33b6-4618-b3c6-b5d585a05486" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipeapi.iws" beforeDir="false" afterPath="$PROJECT_DIR$/recipeapi.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/constant/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/service/RecipeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -32,7 +32,7 @@ public class RecipeResource {
 
     @PostMapping
     public ResponseEntity<Recipe> createRecipe(@RequestBody Recipe recipe) {
-        return ResponseEntity.created(URI.create("/recipe/{userID}")).body(recipeService.createRecipe(recipe));
+        return ResponseEntity.created(URI.create("/recipes/" + recipe.getId())).body(recipeService.createRecipe(recipe));
     }
 
     @GetMapping
@@ -46,7 +46,7 @@ public class RecipeResource {
         return ResponseEntity.ok().body(recipeService.getRecipe(id));
     }
 
-    @PutMapping("/photo")
+    @PutMapping("/image")
     public ResponseEntity<String> uploadPhoto(@RequestParam("id") String id, @RequestParam("file")MultipartFile file) {
         return ResponseEntity.ok().body(recipeService.uploadPhoto(id, file));
     }
