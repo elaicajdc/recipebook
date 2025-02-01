@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9481e55c-33b6-4618-b3c6-b5d585a05486" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/recipeapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipeapi.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/recipeapi.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipeapi.iws" beforeDir="false" afterPath="$PROJECT_DIR$/recipeapi.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/constant/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/resource/RecipeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/getarrays/recipeapi/service/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/recipeapi-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/recipeapi-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/recipeapi-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/recipeapi-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +207,13 @@
     <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
     <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="PerforceConfiguration">
     <option name="PORT" value="magic:1666" />
     <option name="USER" value="" />
@@ -248,19 +256,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-22.04/home/likey/recipebook/pom.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu-22.04\home\likey\recipebook\src\main\resources" />

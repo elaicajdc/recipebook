@@ -75,7 +75,7 @@ public class RecipeService {
             }
             Files.copy(image.getInputStream(), fileStorageLocation.resolve(id + fileExtension.apply(image.getOriginalFilename())), REPLACE_EXISTING);
             return ServletUriComponentsBuilder
-                    .fromCurrentContextPath().path("/recipe/image/" + id +
+                    .fromCurrentContextPath().path("/recipes/image/" + id +
                             fileExtension.apply(image.getOriginalFilename())).toUriString();
         } catch (Exception exception) {
             throw new RuntimeException("Unable to save image", exception);

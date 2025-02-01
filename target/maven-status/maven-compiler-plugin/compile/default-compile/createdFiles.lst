@@ -1,3 +1,4 @@
+io/getarrays/recipeapi/config/CorsConfig.class
 io/getarrays/recipeapi/domain/Recipe.class
 io/getarrays/recipeapi/Application.class
 io/getarrays/recipeapi/repo/RecipeRepo.class

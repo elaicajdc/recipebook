@@ -1,4 +1,5 @@
 /home/likey/recipebook/src/main/java/io/getarrays/recipeapi/Application.java
+/home/likey/recipebook/src/main/java/io/getarrays/recipeapi/config/CorsConfig.java
 /home/likey/recipebook/src/main/java/io/getarrays/recipeapi/constant/Constant.java
 /home/likey/recipebook/src/main/java/io/getarrays/recipeapi/domain/Recipe.java
 /home/likey/recipebook/src/main/java/io/getarrays/recipeapi/repo/RecipeRepo.java
