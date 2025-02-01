@@ -2,15 +2,10 @@
 <project version="4">
   <component name="RemoteTargetsManager">
     <targets>
-      <target name="WSL" type="wsl" uuid="739aca64-05f3-4b38-9d99-f6fabb946848">
+      <target name="WSL" type="wsl" uuid="9ece95d4-42bf-4098-a81f-9c1f8ab9d19c">
         <config>
           <option name="distributionMsId" value="Ubuntu-22.04" />
         </config>
-        <ContributedStateBase type="JavaLanguageRuntime">
-          <config>
-            <option name="homePath" value="/usr/lib/jvm/java-21-openjdk-amd64" />
-          </config>
-        </ContributedStateBase>
         <ContributedStateBase type="MavenRuntime">
           <config>
             <option name="homePath" value="/usr/share/maven" />
