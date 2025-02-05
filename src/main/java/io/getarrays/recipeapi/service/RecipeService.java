@@ -29,6 +29,10 @@ import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 public class RecipeService {
     private final RecipeRepo recipeRepo;
 
+    public void deleteRecipe(String id) {
+        recipeRepo.deleteById(id);
+    }
+
     public Page<Recipe> getAllRecipes(int page, int size){
         return recipeRepo.findAll(PageRequest.of(page, size, Sort.by("name")));
     }
@@ -41,9 +45,7 @@ public class RecipeService {
         return recipeRepo.save(recipe);
     }
 
-    public void deleteRecipe(Recipe recipe) {
-        //TODO
-    }
+
 
     public String uploadPhoto(String id, MultipartFile file) {
         log.info("Saving picture for user ID: {}", id);
